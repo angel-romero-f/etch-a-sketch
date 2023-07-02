@@ -1,0 +1,21 @@
+
+.grid{
+    background-color: blue;
+    border-color: black;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.square{
+    width: 16px;
+    height: 16px;
+
+    padding: 0px;
+    margin: 0px;
+    flex-grow: 1;
+}
