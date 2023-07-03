@@ -1,21 +1,72 @@
+body{
+    box-sizing: border-box;
+    background-color: #ededed;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+}
+button{
+    border: none;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
 
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
 .grid{
-    background-color: blue;
+    background-color: white;
     border-color: black;
-    width: 256px;
-    height: 256px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
+    border: 1px solid black;
+    position: relative;
+    flex-shrink: 0;
 }
 .square{
-    width: 16px;
-    height: 16px;
-
+    width: 6.25%;
+    height: 6.25%;
     padding: 0px;
     margin: 0px;
-    flex-grow: 1;
+
+}
+p{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#colorpicker{
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border: 0px;
 }
